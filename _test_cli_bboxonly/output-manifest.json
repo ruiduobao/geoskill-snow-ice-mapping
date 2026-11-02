@@ -1,9 +1,9 @@
 {
   "skill": "snow-ice-mapping",
   "skill_version": "1.0.0",
-  "command": "snow-ice-mapping --bbox 116 39 117 40 --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\snow-ice-mapping\\_test_cli_bboxonly --quiet",
-  "started_at": "2026-08-03T13:43:01.952902Z",
-  "finished_at": "2026-08-03T13:43:03.356286Z",
+  "command": "snow-ice-mapping --bbox 116 39 117 40 --output-dir /tmp/batch2/geoskill-snow-ice-mapping/_test_cli_bboxonly --quiet",
+  "started_at": "2026-11-02T15:45:07.511878Z",
+  "finished_at": "2026-11-02T15:45:07.702910Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -16,7 +16,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\snow-ice-mapping\\_test_cli_bboxonly\\snow_cover.tif",
+      "path": "/tmp/batch2/geoskill-snow-ice-mapping/_test_cli_bboxonly/snow_cover.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -33,7 +33,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\snow-ice-mapping\\_test_cli_bboxonly\\ndsi.tif",
+      "path": "/tmp/batch2/geoskill-snow-ice-mapping/_test_cli_bboxonly/ndsi.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -50,7 +50,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\snow-ice-mapping\\_test_cli_bboxonly\\snow_area_stats.json",
+      "path": "/tmp/batch2/geoskill-snow-ice-mapping/_test_cli_bboxonly/snow_area_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -81,7 +81,7 @@
     "truth_snow_fraction": 0.320618
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "snow-ice-mapping"
   },
   "error": null
